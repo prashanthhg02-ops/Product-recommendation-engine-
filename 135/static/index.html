@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signal / Product intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="wordmark" href="/" aria-label="Signal home"><span class="mark">S</span><span>SIGNAL</span></a>
+    <nav><a class="active" href="#discover">Discover</a><a href="#catalog">Catalog</a></nav>
+    <div class="status"><span class="status-dot"></span>MODEL ONLINE</div>
+  </header>
+
+  <main id="discover">
+    <section class="hero">
+      <div class="eyebrow"><span></span>PERSONALIZED COMMERCE / 01</div>
+      <h1>Find what<br><em>fits</em> next.</h1>
+      <p class="hero-copy">Describe a mood, a need, or a product you already love. Signal reads the details and surfaces the closest matches.</p>
+      <form class="searchbar" id="search-form">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+        <input id="query" type="search" placeholder="Try “quiet desk setup” or “weekend outside”" autocomplete="off">
+        <button type="submit">Explore <span>↗</span></button>
+      </form>
+      <div class="suggestions"><span>Try:</span><button data-query="wireless audio for commuting">wireless audio for commuting</button><button data-query="warm minimalist home">warm minimalist home</button><button data-query="better desk setup">better desk setup</button></div>
+    </section>
+
+    <section class="control-row" id="catalog">
+      <div><span class="section-kicker">CURATED SIGNALS</span><h2>Recommended for you</h2></div>
+      <div class="controls"><label for="category">Filter</label><select id="category"><option>All</option></select></div>
+    </section>
+
+    <section class="results-head"><p id="result-summary">A quiet starting point, based on the strongest product signals.</p><span id="result-count"></span></section>
+    <section class="product-grid" id="product-grid" aria-live="polite"></section>
+  </main>
+
+  <footer><span>Signal / recommendation engine</span><span>TF-IDF + cosine similarity</span></footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

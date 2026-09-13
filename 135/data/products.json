@@ -1,0 +1,122 @@
+[
+  {
+    "id": "aurora-headphones",
+    "name": "Aurora Noise-Canceling Headphones",
+    "brand": "Sonic Arc",
+    "category": "Audio",
+    "price": 249,
+    "rating": 4.8,
+    "reviews": 1834,
+    "description": "Immersive wireless over-ear headphones with adaptive noise cancellation and a rich, balanced soundstage.",
+    "features": ["wireless", "noise cancelling", "40 hour battery", "spatial audio"],
+    "colors": ["Graphite", "Cloud"]
+  },
+  {
+    "id": "pulse-earbuds",
+    "name": "Pulse Sport Earbuds",
+    "brand": "Sonic Arc",
+    "category": "Audio",
+    "price": 129,
+    "rating": 4.6,
+    "reviews": 967,
+    "description": "Sweatproof true wireless earbuds with a secure fit, energetic sound, and a pocket-sized charging case.",
+    "features": ["wireless", "water resistant", "sport", "fast charging"],
+    "colors": ["Lime", "Black"]
+  },
+  {
+    "id": "terra-watch",
+    "name": "Terra Smartwatch",
+    "brand": "Northstar",
+    "category": "Wearables",
+    "price": 299,
+    "rating": 4.7,
+    "reviews": 1240,
+    "description": "A focused fitness smartwatch with sleep insights, heart-rate tracking, GPS, and a bright always-on display.",
+    "features": ["fitness", "GPS", "sleep tracking", "heart rate", "water resistant"],
+    "colors": ["Sage", "Midnight"]
+  },
+  {
+    "id": "halo-speaker",
+    "name": "Halo Room Speaker",
+    "brand": "Sonic Arc",
+    "category": "Audio",
+    "price": 179,
+    "rating": 4.5,
+    "reviews": 672,
+    "description": "Compact smart speaker that fills a room with warm audio and pairs with other speakers for stereo sound.",
+    "features": ["wireless", "smart home", "multi-room", "voice control"],
+    "colors": ["Chalk", "Terracotta"]
+  },
+  {
+    "id": "linen-tote",
+    "name": "Daybreak Linen Tote",
+    "brand": "Field Notes",
+    "category": "Lifestyle",
+    "price": 68,
+    "rating": 4.4,
+    "reviews": 318,
+    "description": "A sturdy everyday carryall cut from washed linen with an inner pocket for keys and essentials.",
+    "features": ["linen", "everyday", "lightweight", "reusable"],
+    "colors": ["Natural", "Olive"]
+  },
+  {
+    "id": "atlas-lamp",
+    "name": "Atlas Ambient Lamp",
+    "brand": "Northstar",
+    "category": "Home",
+    "price": 94,
+    "rating": 4.7,
+    "reviews": 509,
+    "description": "A sculptural bedside lamp with warm dimming, touch controls, and a soft glow for winding down.",
+    "features": ["smart home", "dimmable", "bedside", "warm light"],
+    "colors": ["Brass", "Stone"]
+  },
+  {
+    "id": "drift-jacket",
+    "name": "Drift Weather Jacket",
+    "brand": "Field Notes",
+    "category": "Outdoor",
+    "price": 158,
+    "rating": 4.6,
+    "reviews": 744,
+    "description": "A lightweight, packable shell built for unpredictable weather with breathable waterproof fabric.",
+    "features": ["waterproof", "lightweight", "packable", "breathable"],
+    "colors": ["Cobalt", "Moss"]
+  },
+  {
+    "id": "ember-mug",
+    "name": "Ember Ceramic Mug",
+    "brand": "Field Notes",
+    "category": "Home",
+    "price": 42,
+    "rating": 4.3,
+    "reviews": 401,
+    "description": "Hand-finished ceramic mug with a generous shape and a tactile matte glaze for slow mornings.",
+    "features": ["ceramic", "hand-finished", "kitchen", "dishwasher safe"],
+    "colors": ["Oat", "Ink"]
+  },
+  {
+    "id": "orbit-keyboard",
+    "name": "Orbit Mechanical Keyboard",
+    "brand": "Northstar",
+    "category": "Workspace",
+    "price": 149,
+    "rating": 4.8,
+    "reviews": 892,
+    "description": "A compact mechanical keyboard with tactile switches, quiet stabilizers, and a clean wireless desk setup.",
+    "features": ["mechanical", "wireless", "compact", "backlit"],
+    "colors": ["Ivory", "Charcoal"]
+  },
+  {
+    "id": "fold-stand",
+    "name": "Fold Laptop Stand",
+    "brand": "Northstar",
+    "category": "Workspace",
+    "price": 79,
+    "rating": 4.5,
+    "reviews": 616,
+    "description": "An adjustable aluminum stand that raises your screen for a more comfortable, uncluttered desk.",
+    "features": ["aluminum", "adjustable", "ergonomic", "foldable"],
+    "colors": ["Silver", "Black"]
+  }
+]
